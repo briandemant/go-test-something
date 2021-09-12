@@ -1,6 +1,8 @@
 package main
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestAdd2(t *testing.T) {
 	var examples = []struct {
