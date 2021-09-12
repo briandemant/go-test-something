@@ -1,10 +1,14 @@
 package main
 
-func add2(input int) (result int) {
+func Add2(input int) (result int) {
 	result = input + 2
 	return
 }
 
-func add4(input int) (result int) {
+func Add4(input int) (result int) {
 	return input + 4
+}
+
+func Add(x int, y int) (result int) {
+	return x + y
 }
